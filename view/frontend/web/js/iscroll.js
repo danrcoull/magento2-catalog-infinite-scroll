@@ -28,7 +28,7 @@ define([
             jQueryBridget( 'infiniteScroll', InfiniteScroll, $ );
             jQueryBridget( 'isotope', Isotope, $ );
 
-           var $grid = element.isotope({
+           /**var $grid = element.isotope({
                 // Isotope options...
                 itemSelector: self.options.itemSelector,
                 layoutMode: 'fitRows',
@@ -37,7 +37,7 @@ define([
                 fitRows: {
                     gutter: 0
                 }
-            });
+            });**/
 
             // get Isotope instance
 
@@ -57,7 +57,7 @@ define([
                 append: self.options.itemSelector,
                 history: 'push',
                 historyTitle: true,
-                outlayer: iso,
+                //outlayer: iso,
                 button: self.options.button,
 
                 // disable loading on scroll
