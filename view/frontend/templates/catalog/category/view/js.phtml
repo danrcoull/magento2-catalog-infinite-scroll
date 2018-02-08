@@ -1,0 +1,22 @@
+<div class="row">
+    <?php if($block->getHelper()->loadOnScroll() == false): ?>
+    <div class="actions text-center">
+        <button class="view-more-button primary" title="<?= __('View More Products'); ?>"><?= __('View More Products'); ?></button>
+    </div>
+    <?php endif; ?>
+    <div class="page-load-status">
+        <p class="infinite-scroll-request text-center" style="display:none;">
+            <img src="<?php echo $block->getHelper()->getImageId(); ?>" title="Mamoq Loading Bird"/>
+        </p>
+        <p class="infinite-scroll-last text-center" style="display:none;"><img src="https://www.mamoq.com/pub/media/images/complete.png"></p>
+        <p class="infinite-scroll-error text-center" style="display:none;" ><?php echo __('No more pages to load'); ?></p>
+    </div>
+
+</div>
+<script type="text/x-magento-init">
+    {
+        ".product-items": {
+            "SuttonSilver_InfiniteScroll/js/iscroll": {"nextClass":".pages-item-next .next","paginationClass":".toolbar-products","image":"<?php echo $block->getHelper()->getImageId();?>", "loadonscroll":"<?php echo $block->getHelper()->loadOnScroll();?>"}
+        }
+    }
+</script>

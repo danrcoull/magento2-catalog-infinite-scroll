@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+	<system>
+		<tab id="suttonsilver" sortOrder="999" translate="label">
+			<label>Sutton SIlver</label>
+		</tab>
+		<section id="infinitescroll" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+			<label>Infinite Scroll</label>
+			<tab>suttonsilver</tab>
+			<resource>SuttonSilver_InfiniteScroll::config_suttonsilver_infinitescroll</resource>
+			<group id="general" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+				<label>General</label>
+				<field id="enabled" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="select">
+					<label>Enabled</label>
+					<comment/>
+					<source_model>Magento\Config\Model\Config\Source\Enabledisable</source_model>
+				</field>
+				<field id="load_on_scroll" translate="label comment" type="select" sortOrder="60" showInDefault="1" showInWebsite="0" showInStore="0">
+					<label>Load On Scroll</label>
+					<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+				</field>
+
+				<field id="upload_image_id" translate="label" type="image" sortOrder="6" showInDefault="1" showInWebsite="1" >
+					<label>Upload custom file</label>
+					<backend_model>Magento\Config\Model\Config\Backend\Image</backend_model>
+					<upload_dir config="system" scope_info="1">test</upload_dir>
+					<depends><field id="load_on_scroll">1</field></depends>
+				</field>
+
+			</group>
+		</section>
+	</system>
+</config>
