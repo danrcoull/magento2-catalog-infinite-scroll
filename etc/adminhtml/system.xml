@@ -23,7 +23,7 @@
 				<field id="upload_image_id" translate="label" type="image" sortOrder="6" showInDefault="1" showInWebsite="1" >
 					<label>Upload custom file</label>
 					<backend_model>Magento\Config\Model\Config\Backend\Image</backend_model>
-					<upload_dir config="system" scope_info="1">test</upload_dir>
+					<upload_dir config="system" scope_info="1"></upload_dir>
 					<depends><field id="load_on_scroll">1</field></depends>
 				</field>
 
