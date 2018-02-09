@@ -43,7 +43,7 @@ define([
 
             //TODO:: Extend to use either masony, isotope etc based on config.
 
-            var iso = $grid.data('isotope');
+            //var iso = $grid.data('isotope');
 
 
             var $scroll = element.infiniteScroll({
