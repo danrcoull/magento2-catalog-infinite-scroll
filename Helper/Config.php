@@ -43,7 +43,7 @@ class Config extends AbstractHelper {
     public function getImageId(){
         if($imgname = $this->scopeConfig->getValue(self::IMAGE, 'store'))
         {
-            return $this->_storeManager->getStore()->getBaseUrl(\Magento\Framework\UrlInterface::URL_TYPE_MEDIA) . $imgname;
+            return '/pub/media/loading/' .$this->_storeManager->getStore()->getCode().'/'. $imgname;
         }
 
         return "https://infinite-scroll.com/loading.gif";
