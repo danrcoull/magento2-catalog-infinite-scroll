@@ -1,8 +1,14 @@
-# Magento 2 - Infinate Scroll
+# Magento 2 - infinate Scroll
 
-Make your category product lists non paginated, auto loading. With Masonry, Isotope or packery
+Allows the page to load automatically more products on the search results and category lists pages as customers scroll down towards the bottom of the page. Giving the customer a seamless shopping experience. 
+
+The key features is this magento 2.*.* module is its fully supported widget capability to intergrate other types of lists into your theme. Whist allowing full customerisation of how it works directly from magento 2 backend, for the novice magento user to configure it to work as they wish. 
+
+This could be Masonry display, isotope or Packery style displays. As this module is built with magento 2 best practices customization of the javascript itself can easily be made using mixins to do other things using the infinite scroll events. 
 
 Fully customizable to any theme, just change the css clases for your list.
+
+Best part of it This Magento 2 infinite scroll module is FREE
 
 Compatible with any version of magento 2. 
 
