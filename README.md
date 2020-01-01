@@ -31,7 +31,7 @@ You can see two segmants
 ````
 2. The actual script initialization 
 
-```$xslt
+```html
 <script type="text/x-magento-init">
     {
         "<?= $block->getContainer(); ?>": {
@@ -44,7 +44,7 @@ You can see two segmants
 
 Replace the above as so
 
-```$xslt
+```html
 <script type="text/x-magento-init">
     {
         ".list-item-container-class": {
@@ -120,5 +120,9 @@ Yes i work hard, plenty more modules to come feel free to by me a coffee below.
 
 
 [![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/lato-black.png)](https://www.buymeacoffee.com/BHaNOMl)
+
+
+Infinate Scroll library credit to https://github.com/metafizzy/infinite-scroll
+Infinate Scroll License at [infinite-scroll.com](https://infinite-scroll.com/#commercial-license)
 
 
