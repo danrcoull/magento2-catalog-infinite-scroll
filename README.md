@@ -105,7 +105,7 @@ Company Hirachy
 Installation:
 
 ```bash
-composer config repositories.productpricelist vcs https://github.com/danrcoull/Magento2-SuttonSilver_InfiniteScroll.git
+composer config repositories.productpricelist vcs https://github.com/danrcoull/Magento2-InfiniteScroll.git
 composer require gremlintech/module-infinatescroll:dev-master
 php bin/magento module:enable GremlinTech_InfinateScroll
 php bin/magento setup:upgrade
