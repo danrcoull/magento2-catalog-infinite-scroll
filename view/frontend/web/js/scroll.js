@@ -149,6 +149,10 @@ define(['uiComponent', 'jquery', 'infinatescroll', "mage/template", 'imagesloade
                 let self = this;
 
                 self.settings.$element.infiniteScroll(self.config)
+
+                self.settings.$element.on( 'append.infiniteScroll', function( event, response, path, items ) {
+                            $('body').trigger('contentUpdated');
+                    });
             },
             initExtras: function () {
                 let self = this;
