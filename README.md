@@ -1,5 +1,7 @@
 # Magento 2 - infinate Scroll
 
+From  [boxleaf Digital](https://www.boxleafdigital.com)
+
 Allows the page to load automatically more products on the search results and category lists pages as customers scroll down towards the bottom of the page. Giving the customer a seamless shopping experience. 
 
 The key features is this magento 2.*.* module is its fully supported widget capability to intergrate other types of lists into your theme. Whist allowing full customerisation of how it works directly from magento 2 backend, for the novice magento user to configure it to work as they wish. 
@@ -112,8 +114,8 @@ Installation:
 
 ```bash
 composer config repositories.productpricelist vcs https://github.com/danrcoull/Magento2-InfiniteScroll.git
-composer require gremlintech/module-infinatescroll:dev-master
-php bin/magento module:enable GremlinTech_InfinateScroll
+composer require boxleaf/module-infinatescroll:dev-master
+php bin/magento module:enable BoxLeaf_InfinateScroll
 php bin/magento setup:upgrade
 php bin/magento setup:di:compile #yes do this we use extension attributes so you can see the original price and the custom price.
 php bin/magento setup:static-content:deploy en_GB en_US -f 
@@ -130,5 +132,7 @@ Yes i work hard, plenty more modules to come feel free to by me a coffee below.
 
 Infinate Scroll library credit to https://github.com/metafizzy/infinite-scroll
 Infinate Scroll License at [infinite-scroll.com](https://infinite-scroll.com/#commercial-license)
+
+
 
 

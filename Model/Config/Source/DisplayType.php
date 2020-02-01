@@ -1,6 +1,6 @@
 <?php
 /**
- *   @package    GremlinTech
+ *   @package    BoxLeaf
  *   @author     Daniel Coull <ttechitsolutions@gmail.com>
  *   @copyright  01/01/2020, 16:45.$year Daniel Coull
  *   @version    CVS: $Id:$
@@ -8,13 +8,13 @@
  *
  */
 
-namespace GremlinTech\InfinateScroll\Model\Config\Source;
+namespace BoxLeaf\InfinateScroll\Model\Config\Source;
 
 use Magento\Framework\Data\OptionSourceInterface;
 
 /**
  * Class DisplayType
- * @package GremlinTech\InfinateScroll\Model\Config\Source
+ * @package BoxLeaf\InfinateScroll\Model\Config\Source
  */
 class DisplayType implements OptionSourceInterface {
 

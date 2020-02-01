@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  ~   @package    GremlinTech
+  ~   @package    BoxLeaf
   ~   @author     Daniel Coull <ttechitsolutions@gmail.com>
   ~   @copyright  01/01/2020, 16:45.$year Daniel Coull
   ~   @version    CVS: $Id:$
@@ -9,13 +9,13 @@
   -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
-        <tab id="gremlintech" translate="label" sortOrder="10">
-            <label>GremlinTech</label>
+        <tab id="boxleaf" translate="label" sortOrder="10">
+            <label>BoxLeaf</label>
         </tab>
         <section id="infinatescroll" translate="label" sortOrder="130" showInDefault="1" showInWebsite="1" showInStore="1">
             <class>separator-top</class>
             <label>Infinate Scroll</label>
-            <tab>gremlintech</tab>
+            <tab>boxleaf</tab>
             <resource>Magento_Catalog::catalog</resource>
             <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
                 <label>General Configuration</label>
@@ -68,7 +68,7 @@
                 <field id="display_type" translate="label" type="select"
                        sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Display Type</label>
-                    <source_model>GremlinTech\InfinateScroll\Model\Config\Source\DisplayType</source_model>
+                    <source_model>BoxLeaf\InfinateScroll\Model\Config\Source\DisplayType</source_model>
                 </field>
             </group>
         </section>

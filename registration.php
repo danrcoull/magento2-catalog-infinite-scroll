@@ -1,6 +1,6 @@
 <?php
 /**
- *   @package    GremlinTech
+ *   @package    BoxLeaf
  *   @author     Daniel Coull <ttechitsolutions@gmail.com>
  *   @copyright  01/01/2020, 16:45.$year Daniel Coull
  *   @version    CVS: $Id:$
@@ -12,6 +12,6 @@ use \Magento\Framework\Component\ComponentRegistrar;
 
 ComponentRegistrar::register(
     ComponentRegistrar::MODULE,
-    'GremlinTech_InfinateScroll',
+    'BoxLeaf_InfinateScroll',
     isset($file) ? realpath(dirname($file)) : __DIR__
 );

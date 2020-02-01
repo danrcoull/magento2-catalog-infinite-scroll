@@ -1,5 +1,5 @@
 /*
- *   @package    GremlinTech
+ *   @package    BoxLeaf
  *   @author     Daniel Coull <ttechitsolutions@gmail.com>
  *   @copyright  01/01/2020, 16:45.$year Daniel Coull
  *   @version    CVS: $Id:$
@@ -9,7 +9,7 @@
 
 var config = {
     paths: {
-        'scroll': "GremlinTech_InfinateScroll/js/scroll",
+        'scroll': "BoxLeaf_InfinateScroll/js/scroll",
         'infinatescroll': "//cdnjs.cloudflare.com/ajax/libs/jquery-infinitescroll/3.0.6/infinite-scroll.pkgd",
         'jquery-bridget': "//cdn.jsdelivr.net/npm/jquery-bridget@2.0.1/jquery-bridget.min",
         'masonry' : "//cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min",

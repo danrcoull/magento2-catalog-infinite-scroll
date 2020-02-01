@@ -1,6 +1,6 @@
 <?php
 /**
- *   @package    GremlinTech
+ *   @package    BoxLeaf
  *   @author     Daniel Coull <ttechitsolutions@gmail.com>
  *   @copyright  01/01/2020, 16:45.$year Daniel Coull
  *   @version    CVS: $Id:$
@@ -8,7 +8,7 @@
  *
  */
 
-namespace GremlinTech\InfinateScroll\Block;
+namespace BoxLeaf\InfinateScroll\Block;
 
 use Magento\Framework\App\Config\ScopeConfigInterface;
 use Magento\Framework\Serialize\Serializer\Json;
@@ -17,7 +17,7 @@ use Magento\Store\Model\ScopeInterface;
 
 /**
  * Class Scroll
- * @package GremlinTech\InfinateScroll\Block
+ * @package BoxLeaf\InfinateScroll\Block
  */
 class Scroll extends \Magento\Framework\View\Element\Template {
 
