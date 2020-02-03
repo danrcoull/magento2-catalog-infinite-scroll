@@ -14,7 +14,7 @@ define(['uiComponent', 'jquery', 'infinatescroll', "mage/template", 'imagesloade
             defaults: {
                 settings: {
                     enable: true,
-                    $element: $('.products.list.items.product-items'),
+                    $element: $('.product-items'),
                     analytics: true,
                     status: true,
                     text: 'No more products',
@@ -41,6 +41,7 @@ define(['uiComponent', 'jquery', 'infinatescroll', "mage/template", 'imagesloade
                 $.extend(true, self.settings, config.settings);
 
                 self.settings.$element = $(element)
+                self.settings.$element.addClass('infinate');
 
                 console.log(self.config)
 
